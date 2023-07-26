@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "fir-rtc-89b99"
-  }
+    "default": "fir-rtc-89b99",
+    "meet-live": "meet-live-108b7"
+  },
+  "targets": {},
+  "etags": {}
 }
