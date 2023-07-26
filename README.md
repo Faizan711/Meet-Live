@@ -1,8 +1,5 @@
-# Firebase + WebRTC Codelab
-### Full code solution can be found under the branch: _solution_
-This is the GitHub repo for the FirebaseRTC codelab. This will teach you how 
-to use Firebase Cloud Firestore for signalling in a WebRTC video chat application.
+# Meet-Live
+## A simple video calling web-app made with webRTC, Firebase and Google's free Stun servers.
+Create a Room , share the code and connect with your friends.
 
-The solution to this codelab can be seen in the _solution_ branch.
 
-See http://webrtc.org for details.
