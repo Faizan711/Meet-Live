@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Handjet:wght@300&display=swap');
 body {
-    background: #ECEFF1;
+    background: #d9e3ea;
     color: rgba(0, 0, 0, 0.87);
-    font-family: Roboto, Helvetica, Arial, sans-serif;
+    /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+    font-family: 'Handjet', cursive;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #message {
     background: white;
-    max-width: 360px;
+    max-width: 300px;
     margin: 100px auto 16px;
     padding: 32px 24px;
     border-radius: 3px;
@@ -31,7 +37,7 @@ body {
 #message p {
     line-height: 140%;
     margin: 16px 0 24px;
-    font-size: 14px;
+    font-size: 34px;
 }
 
 #message a {
@@ -53,6 +59,9 @@ body {
     color: rgba(0, 0, 0, 0.4);
     text-align: center;
     font-size: 13px;
+}
+#currentRoom{
+    font-size: 30px;
 }
 
 @media (max-width: 600px) {
@@ -83,8 +92,20 @@ div#videos {
 
 div#videos > video {
     background: black;
-    width: 640px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    width: 100%;
     height: 100%;
     display: block;
     margin: 1em;
+}
+
+@media(max-width:425px){
+    div#videos > video {
+        background: black;
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: 1em;
+    }
 }
